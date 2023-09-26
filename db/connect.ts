@@ -24,12 +24,3 @@ const connect = async function(): Promise<void>{
     }
 }
 export default connect;
-
-
-// connection.end((err:Error) => {
-//   if (err) {
-//     console.error('Error closing MySQL connection:', err);
-//     return;
-//   }
-//   console.log('MySQL connection closed');
-// });
